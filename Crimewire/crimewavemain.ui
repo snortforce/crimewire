@@ -39,7 +39,7 @@
      </font>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
     <widget class="QWidget" name="searchTab">
      <property name="toolTip">
@@ -122,6 +122,31 @@
       <property name="flat">
        <bool>false</bool>
       </property>
+      <widget class="QTabWidget" name="resultsTabWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>600</width>
+         <height>500</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="initialResults">
+        <attribute name="title">
+         <string>Tab 2</string>
+        </attribute>
+        <widget class="QTableView" name="initialResultsTab">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>600</width>
+           <height>480</height>
+          </rect>
+         </property>
+        </widget>
+       </widget>
+      </widget>
      </widget>
      <widget class="QGroupBox" name="filterGroupBox">
       <property name="geometry">
@@ -133,8 +158,18 @@
        </rect>
       </property>
       <property name="title">
-       <string>Filter Results</string>
+       <string>Filter by Filetype</string>
       </property>
+      <widget class="QListView" name="filtersListView">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>180</width>
+         <height>430</height>
+        </rect>
+       </property>
+      </widget>
      </widget>
     </widget>
     <widget class="QWidget" name="tab">
@@ -176,6 +211,11 @@
     <property name="title">
      <string>&amp;File</string>
     </property>
+    <addaction name="actionPreferences"/>
+    <addaction name="actionDisconnect"/>
+    <addaction name="separator"/>
+    <addaction name="actionPreferences_2"/>
+    <addaction name="actionExit_CrimeWire"/>
    </widget>
    <widget class="QMenu" name="menu_View">
     <property name="title">
@@ -244,6 +284,26 @@
    </property>
    <property name="text">
     <string>About CrimeWire</string>
+   </property>
+  </action>
+  <action name="actionPreferences">
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </action>
+  <action name="actionDisconnect">
+   <property name="text">
+    <string>Disconnect</string>
+   </property>
+  </action>
+  <action name="actionPreferences_2">
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+  </action>
+  <action name="actionExit_CrimeWire">
+   <property name="text">
+    <string>Exit CrimeWire</string>
    </property>
   </action>
  </widget>
