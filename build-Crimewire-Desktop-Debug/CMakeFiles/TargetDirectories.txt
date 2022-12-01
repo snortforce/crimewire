@@ -1,5 +1,0 @@
-/boot/home/crimewire/build-Crimewire-Desktop-Debug/CMakeFiles/Crimewire.dir
-/boot/home/crimewire/build-Crimewire-Desktop-Debug/CMakeFiles/edit_cache.dir
-/boot/home/crimewire/build-Crimewire-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/boot/home/crimewire/build-Crimewire-Desktop-Debug/CMakeFiles/Crimewire_autogen_timestamp_deps.dir
-/boot/home/crimewire/build-Crimewire-Desktop-Debug/CMakeFiles/Crimewire_autogen.dir
